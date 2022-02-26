@@ -1,3 +1,26 @@
+
+# React-Pomodoro-App
+
+## Description:
+A Pomodoro app created with React.js and Tailwind CSS.
+Set short and long breaks and duration of the task, you can also set preferences for colors and fonts.
+
+## Demo: 
+https://upbeat-boyd-cd20f7.netlify.app/
+
+![image](https://user-images.githubusercontent.com/61046794/155860715-cff06884-e067-4168-a2fa-12d5c4260626.png)
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
