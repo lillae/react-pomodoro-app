@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <div className='w-full h-[25px] flex justify-between items-start mb-2'>
+    <div className='mb-[30px] lg:mb-2 w-full h-[25px] flex justify-between items-start'>
       <h1 className='text-primary-accent self-center'>Pomodoro</h1>
       <Button>
         <IoSettingsSharp

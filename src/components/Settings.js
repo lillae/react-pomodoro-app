@@ -18,9 +18,9 @@ const Settings = () => {
   } = useTimer();
 
   return (
-    <div className='w-full h-screen bg-black flex flex-col'>
+    <div className='w-full h-full bg-black flex flex-col mb-[20px]'>
       <h2 className='text-primary-accent mb-[50px]'>Settings</h2>;
-      <div className='w-full h-full flex flex-col items-center text-left space-y-8'>
+      <div className='w-full h-fit flex flex-col items-center text-left space-y-8 '>
         <div>
           <label>Work: {workMinutes}:00</label>
           <ReactSlider
@@ -80,7 +80,7 @@ const Settings = () => {
         </div>
       </div>
       <button
-        className='text-primary-accent flex bg-stone-900 py-2 px-4 rounded w-[100px] self-center'
+        className='text-primary-accent flex bg-stone-900 py-2 px-4 rounded w-[100px] self-center mt-[100px] '
         onClick={() => setShowSettings(false)}
       >
         <BsArrowLeft className='text-primary-accent text-2xl mr-2' />
