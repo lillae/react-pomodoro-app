@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --accent: #00ce79;
+    --accentDark: #067f4d;
+    --primary-text: #dddddd;
+    --primary-darkGray: rgba(21, 20, 20, 0.5);
+  }
+
+  .theme-green {
+    --accent: #00ce79;
+    --accentDark: #067f4d;
+    --primary-text: #dddddd;
+    --primary-darkGray: rgba(21, 20, 20, 0.5);
+  }
+
+  .theme-blue {
+    --accent: #6044fc;
+    --accentDark: #3a21c2;
+    --primary-text: #dddddd;
+    --primary-darkGray: rgba(21, 20, 20, 0.5);
+  }
+
+  .theme-purple {
+    --accent: #8511ff;
+    --accentDark: #5501ae;
+    --primary-text: #dddddd;
+    --primary-darkGray: rgba(21, 20, 20, 0.5);
+  }
+
+  body {
+    @apply p-4 bg-black;
+  }
+  h1 {
+    @apply text-2xl font-medium text-left;
+  }
+  h2 {
+    @apply text-3xl capitalize font-medium;
+  }
+  h6 {
+    @apply text-primary-accentDark;
+    font-size: 0.9rem;
+    margin: 5px 0px;
+  }
+  a {
+    text-decoration: none;
+  }
+  label {
+    @apply text-primary-accent text-left;
+  }
+  input {
+    color: var(--accent);
+    border: 1px solid transparent;
+  }
+  input[type='radio'] {
+    margin-right: 1rem;
+  }
+  input::placeholder {
+    color: #303030;
+  }
+  input:focus {
+    outline: none;
+    border: 1px solid var(--accent);
+  }
+
+  .slider {
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 0.2rem;
+    width: 350px;
+  }
+
+  .thumb {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: white;
+  }
+
+  .track {
+    width: 350px;
+  }
+
+  select {
+    background-color: rgba(30, 30, 30, 0.7);
+    border: 1px solid transparent;
+    color: var(--primary-text);
+    padding: 0.2rem;
+    cursor: pointer;
+  }
+  select:focus {
+    outline: none;
+    border: 1px solid var(--accent);
+  }
+}
