@@ -3,7 +3,7 @@
 
 ## Description:
 - A Pomodoro app created with React.js and Tailwind CSS. 
-- Set short and long breaks and duration of the task, you can also set preferences for colors and fonts.
+- Set the duration of the focus time and the short and long breaks. You can also customize colors and fonts.
 
 ## Demo: 
 https://upbeat-boyd-cd20f7.netlify.app/
